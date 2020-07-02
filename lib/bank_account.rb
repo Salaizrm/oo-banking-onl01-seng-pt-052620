@@ -12,8 +12,8 @@ class BankAccount
   end
 
   def deposit(money)
-    @bank_account << money
-    @bank_account.sum
+    new_balance = @bank_account << money
+    new_balance.sum
   end
 
 end
