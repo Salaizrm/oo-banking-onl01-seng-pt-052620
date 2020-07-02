@@ -1,4 +1,4 @@
-binding.pry
+require "pry"
 class BankAccount
 
   attr_accessor :bank_account, :balance, :status
@@ -13,6 +13,7 @@ class BankAccount
 
   def deposit(money)
     @bank_account << money
+    binding.pry
   end
 
 end
