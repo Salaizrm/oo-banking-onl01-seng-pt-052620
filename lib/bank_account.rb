@@ -13,6 +13,7 @@ class BankAccount
 
   def deposit(money)
     @bank_account << money
+    @bank_account
     binding.pry
   end
 
