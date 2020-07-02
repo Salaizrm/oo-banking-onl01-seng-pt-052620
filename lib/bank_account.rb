@@ -1,4 +1,4 @@
-binding.pry 
+binding.pry
 class BankAccount
 
   attr_accessor :bank_account, :balance, :status
