@@ -14,7 +14,7 @@ class BankAccount
   def deposit(money)
     @bank_account << money
     @bank_account.sum
-    binding.pry
+
   end
 
 end
