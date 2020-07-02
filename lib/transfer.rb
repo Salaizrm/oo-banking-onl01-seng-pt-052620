@@ -18,6 +18,7 @@ class Transfer
   end
 
   def execute_transaction
+    @receiver << @sender
   end
 
 end
