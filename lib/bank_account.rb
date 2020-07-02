@@ -10,5 +10,8 @@ class BankAccount
     @status = status
   end
 
+  def deposit(money)
+    @bank_account << money
+  end
 
 end
