@@ -11,7 +11,8 @@ class BankAccount
   end
 
   def deposit(money)
-    @balance += money
+    @balance << money
+    @balance
   end
 
 
